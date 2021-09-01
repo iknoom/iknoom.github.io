@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: iknoom/iknoom.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -22,7 +22,7 @@ github_username:  iknoom
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: Moonki choi
+linkedin_username: moonki-choi-7139051b1
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
