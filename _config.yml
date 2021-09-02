@@ -27,11 +27,17 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  // 간단한 자기소개
+  ## 최문기(Moonki Choi)
 
-  // 흥미
+  ---
 
-  I am interested in <mark>Java/Spring</mark>, <mark>Algorithm</mark>
+  백엔드 개발자가 되고 싶은 대학생입니다.
+
+  최근에는 <mark>Java/Spring</mark>를 공부하고 있으며
+
+  Spring의 설계 원칙을 관찰하는 것에 즐거움을 느끼고 있습니다.
+
+  취미로 알고리즘 문제를 풉니다.
 
 content:
   - title: Education
@@ -42,17 +48,22 @@ content:
         caption: 2016.3 - 2022.2(졸업 예정)
         sub_title: 컴퓨터과학부
         description: |
-          // 기본기, 학점보다는 지속성을 위한 기록
+          _항상 기본기를 중요시하며, 지식의 내재화를 위해 기록을 남기려고 노력했습니다._
 
-          // 학점
+          <br>
+          
+          ## 수강내역
+          - 운영체제: <mark>process/thread</mark>, <mark>race condition</mark>
+          - 네트워크: 
+          - 프로그래밍 언어론: 
+          - 인공지능: 
+          - 소프트웨어 응용: 
 
-          // 장학금
-
-          - 운영체제
-          - 네트워크
-          - 프로그래밍 언어론
-          - 인공지능
-          - 웹정보, 소응
+          ## 학점
+          - 전체 `3.99/4.5`
+          - 전공 `4.05/4.5`
+          - 학업우수장학 Ⅱ종 (등록금 반액)
+            - `2016-1`, `2017-1`, `2019-2`, `2020-1`
 
   - title: Study
     layout: list
@@ -143,7 +154,7 @@ content:
       ## Site
       ![atcoder](https://cp-logo.vercel.app/atcoder/IKnoom)
       ![codeforces](https://cp-logo.vercel.app/codeforces/IKnoom)
-      ![solved.ac](http://mazassumnida.wtf/api/mini/generate_badge?boj=iknoom1107)
+      <a href="https://solved.ac/iknoom1107" rel="nofollow"><img src="https://camo.githubusercontent.com/cb7fe4e5e5de508163166a936841d01a8c86d2413e8180ee2467b09c56b90d2b/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f6d696e692f67656e65726174655f62616467653f626f6a3d696b6e6f6f6d31313037" alt="solved.ac" data-canonical-src="http://mazassumnida.wtf/api/mini/generate_badge?boj=iknoom1107" style="max-width:100%;"></a>
       - [Atcoder](https://atcoder.jp/users/IKnoom)
       - [Codeforces](http://codeforces.com/profile/IKnoom)
       - [Baekjoon Online Judge](https://www.acmicpc.net/user/iknoom1107)
