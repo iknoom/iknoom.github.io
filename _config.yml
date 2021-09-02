@@ -28,16 +28,22 @@ about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
   ## 최문기(Moonki Choi)
-
   ---
-
   백엔드 개발자가 되고 싶은 대학생입니다.
 
-  최근에는 <mark>Java/Spring</mark>를 공부하고 있으며
+  최근에는 Java/Spring를 공부하고 있으며
 
   Spring의 설계 원칙을 관찰하는 것에 즐거움을 느끼고 있습니다.
 
   취미로 알고리즘 문제를 풉니다.
+
+  <br>
+
+  ## Skills
+  ---
+  - <mark>Spring</mark>, <mark>JPA</mark>, <mark>SQL</mark>, <mark>Git</mark>, <mark>AWS</mark>
+  - <mark>Java</mark>, <mark>Python</mark>, <mark>C++</mark>
+  - <mark>Problem Solving</mark>
 
 content:
   - title: Education
@@ -51,60 +57,48 @@ content:
           _항상 기본기를 중요시하며, 지식의 내재화를 위해 기록을 남기려고 노력했습니다._
 
           <br>
-          
+
           ## 수강내역
-          - 운영체제: <mark>process/thread</mark>, <mark>race condition</mark>
-          - 네트워크: 
-          - 프로그래밍 언어론: 
-          - 인공지능: 
-          - 소프트웨어 응용: 
+          - 운영체제: `process/thread`, `scheduling`, `paging`, `file system`
+          - 컴퓨터통신: `OSI 7 layer`, `tcp/udp`, `ip`, `http`
+          - 인공지능: `MLP`, `CNN`
+          - 소프트웨어 응용: `social network`, `game theory`
 
           ## 학점
           - 전체 `3.99/4.5`
           - 전공 `4.05/4.5`
           - 학업우수장학 Ⅱ종 (등록금 반액)
-            - `2016-1`, `2017-1`, `2019-2`, `2020-1`
-
-  - title: Study
-    layout: list
-    content:
-      - layout: top-middle
-        title: Backend-Study
-        link: https://github.com/ddbreaker/Backend-Study/tree/main/iknoom
-        link_text: github.com/ddbreaker/Backend-Study/tree/main/iknoom
-        additional_links:
-          - title:  ddbreaker/Backend-Study/tree/main/iknoom
-            icon: fab fa-github
-            url: github.com/ddbreaker/Backend-Study/tree/main/iknoom
-        quote: >
-          이 프로젝트는..
-        description: |
-          // 설명 및 공부한 내용
+            - `2016-2`, `2017-2`, `2020-1`, `2020-2`
 
   - title: Projects
     layout: list
     content:
       # Project #1
-      - layout: top-middle
+      - layout: left
         title: ColorAid
-        sub_title: 웹툰 밑색 자동 채색 어플리케이션
-        link: https://github.com/UOS-SamSam/UOSwing-backend
-        link_text: github.com/UOS-SamSam/UOSwing-backend
+        # sub_title: 
+        caption: 2021.07 ~ 진행 중
+        link: https://www.coloraid.me
+        link_text: www.coloraid.me
         additional_links:
-          - title:  UOS-SamSam/UOSwing-backend
+          - title:  github.com/swmaestro-null/Null-AI
             icon: fab fa-github
-            url: github.com/UOS-SamSam/UOSwing-backend
-          - title:  play.google.com/store/apps/details?id=com.uoswing
+            url: github.com/swmaestro-null/Null-AI
+          - title:  www.coloraid.me
             icon: fas fa-globe
-            url: https://play.google.com/store/apps/details?id=com.uoswing
+            url: https://www.coloraid.me
         quote: >
-          이 프로젝트는..
+          [팀 프로젝트] 소프트웨어 마에스트로 12기, 웹툰 밑색 자동 채색 어플리케이션
         description: |
-          // 설명 및 맡은 역할
+          - 자동 채색 AI를 수행하는 Flask API를 작성했습니다.
+          - 유저 인증 기능을 수행하는 Spring API를 작성했습니다.
+          - Docker와 Jenkins를 이용한 CI/CD pipeline을 작성했습니다.
+          - `Flask`, `Spring boot`, `Jenkins`, `Docker`, `AWS EC2`, `AWS S3`
       # Project #2
-      - layout: top-middle
+      - layout: left
         title: Project Wing
-        sub_title: 서울시립대학교 양심생리대함 App
+        # sub_title: 
+        caption: 2021.03 ~ 2021.07
         link: https://github.com/UOS-SamSam/UOSwing-backend
         link_text: github.com/UOS-SamSam/UOSwing-backend
         additional_links:
@@ -115,13 +109,16 @@ content:
             icon: fas fa-globe
             url: https://play.google.com/store/apps/details?id=com.uoswing
         quote: >
-          이 프로젝트는..
+          [학부 캡스톤 프로젝트, 팀 프로젝트] 서울시립대학교 양심생리대함 App
         description: |
-          // 설명 및 맡은 역할
+          - ERD 설계 및 아키텍쳐 설계를 했습니다.
+          - App에서 필요한 CRUD를 수행하는 API를 작성했습니다.
+          - `Spring boot`, `Spring Data JPA`, `MariaDB`, `AWS EC2`, `AWS RDS`
       # Project #3
-      - layout: top-middle
+      - layout: left
         title: BOJ-BREAKER
-        sub_title: 우리 학교가 풀지 않은 Baekjoon 문제
+        # sub_title: 
+        caption: 2021.01 ~ 2021.03
         link: https://github.com/ddbreaker/BOJ-BREAKER
         link_text: github.com/ddbreaker/BOJ-BREAKER
         additional_links:
@@ -129,24 +126,106 @@ content:
             icon: fab fa-github
             url: github.com/ddbreaker/BOJ-BREAKER
         quote: >
-          이 프로젝트는..
+          [팀 프로젝트] 우리 학교가 풀지 않은 Baekjoon 문제
         description: |
-          // 설명 및 맡은 역할
-  
-  - title: Undergraduate Projects & Toy Projects
-    layout: text
-    content: |
-      ## `2020.09-2020.12` CNN을 이용한 자율주행자동차 
-      - [Github Link](https://github.com/iknoom/AI_RC_Car)
-      - `Python`, `Keras`
-      
-      ## `2020.07` 파파고 api를 활용한 반투명 클립보드 번역 앱 
-      - [Github Link](https://github.com/iknoom/clipboard_translator)
-      - `Python`, `PyQt`
+          - ERD 설계 및 아키텍쳐 설계를 했습니다.
+          - query string에 맞는 쿼리를 수행하는 API를 작성했습니다.
+          - Baekjoon을 크롤링하는 크롤러를 구현했습니다.
+          - `Spring boot`, `Spring Data JPA`, `MariaDB`, `Python`, `Beautifulsoup`, `AWS Lambda`
+      # Project #4
+      - layout: left
+        title: AI RC Car
+        # sub_title: 
+        caption: 2020.09 ~ 2020.12
+        link: https://github.com/iknoom/AI_RC_Car
+        link_text: github.com/iknoom/AI_RC_Car
+        additional_links:
+          - title:  github.com/iknoom/AI_RC_Car
+            icon: fab fa-github
+            url: github.com/iknoom/AI_RC_Car
+        quote: >
+          [학부 지정 프로젝트, 팀 프로젝트] 라즈베리파이 카메라와 CNN을 이용한 자율주행자동차
+        description: |
+          - CNN을 제외한 라즈베리파이 주행 로직을 작성했습니다.
+          - CNN에 들어갈 데이터를 수집하고 라벨링을 했습니다.
+          - `Python`, `Keras`, `Raspberry Pi`
+      # Project #5
+      - layout: left
+        title: House Price Predictor
+        # sub_title: 
+        caption: 2020.09 ~ 2020.12
+        link: https://github.com/Dormarble/House-Price-Predictor
+        link_text: github.com/Dormarble/House-Price-Predictor
+        additional_links:
+          - title:  github.com/Dormarble/House-Price-Predictor
+            icon: fab fa-github
+            url: github.com/Dormarble/House-Price-Predictor
+        quote: >
+          [학부 자유 프로젝트, 팀 프로젝트] 부동산 매도가 예측 어플리케이션
+        description: |
+          - Kaggle에서 House Prices Regression Competition에서 Notebook을 참고하여 Regression을 수행했습니다.
+          - PyQt를 이용한 GUI를 작성했습니다.
+          - `Python`, `Pandas`, `Sklearn`, `Xgboost`, `PyQt`
+      # Project #6
+      - layout: left
+        title: Clipboard Translator
+        # sub_title: 
+        caption: 2020.07
+        link: https://github.com/iknoom/clipboard_translator
+        link_text: github.com/iknoom/clipboard_translator
+        additional_links:
+          - title:  github.com/iknoom/clipboard_translator
+            icon: fab fa-github
+            url: github.com/iknoom/clipboard_translator
+        quote: >
+          [Toy 프로젝트, 개인 프로젝트] 파파고 api를 활용한 반투명 클립보드 번역 앱 
+        description: |
+          - `Python`, `PyQt`
+      # Project #7
+      - layout: left
+        title: Contests Notice
+        # sub_title: 
+        caption: 2020.03
+        link: https://github.com/ManManChiAnunTeam/project-ihb/tree/master/contests_notice
+        link_text: github.com/ManManChiAnunTeam/project-ihb/tree/master/contests_notice
+        additional_links:
+          - title:  github.com/ManManChiAnunTeam/project-ihb/tree/master/contests_notice
+            icon: fab fa-github
+            url: github.com/ManManChiAnunTeam/project-ihb/tree/master/contests_notice
+        quote: >
+          [Toy 프로젝트, 개인 프로젝트] 알고리즘 대회 일정 알림 Slack Bot
+        description: |
+          - `Python`, `AWS Lambda`, `BeautifulSoup`
 
-      ## `2020.03` 알고리즘 대회 일정 알림 Slack Bot 
-      - [Github Link](https://github.com/ManManChiAnunTeam/project-ihb/tree/master/contests_notice)
-      - `Python`, `AWS Lambda`, `BeautifulSoup`
+  - title: Study
+    layout: list
+    content:
+      - layout: left
+        title: Backend Study
+        caption: 2021.01 ~ 진행 중
+        link: https://github.com/ddbreaker/Backend-Study/tree/main/iknoom
+        link_text: github.com/ddbreaker/Backend-Study/tree/main/iknoom
+        additional_links:
+          - title:  ddbreaker/Backend-Study/tree/main/iknoom
+            icon: fab fa-github
+            url: github.com/ddbreaker/Backend-Study/tree/main/iknoom
+        description: |
+          - Backend Engineering 역량을 기르기 위해서 학습한 내용을 정리했습니다.
+          - `Spring`, `Spring JPA`, `Spring MVC`
+          - `Http`, `Docker`
+      - layout: left
+        title: Web Study
+        caption: 2020.07 ~ 2020.08
+        link: https://github.com/kidult-1/Web_Study/tree/master/moonki
+        link_text: github.com/kidult-1/Web_Study/tree/master/moonki
+        additional_links:
+          - title:  github.com/kidult-1/Web_Study/tree/master/moonki
+            icon: fab fa-github
+            url: github.com/kidult-1/Web_Study/tree/master/moonki
+        description: |
+          - Web에 대한 기본적인 내용을 처음으로 공부하며 정리했습니다.
+          - `html`, `css`, `js`
+          - `bootstrap`
 
   - title: Problem Solving
     layout: text
@@ -160,26 +239,35 @@ content:
       - [Baekjoon Online Judge](https://www.acmicpc.net/user/iknoom1107)
 
       ## History
-      - 2021 SCPC(삼성 대학생 프로그래밍 경진대회) **본선 진출**
-      - 2020 ACM-ICPC Asia Seoul Regional Contest **본선 28등**(ICPC rule 14등)
-      - 2020 UOSPC(서울시립대학교 알고리즘 경진대회) **운영, 출제 및 검수**
-      - 2020 서울시립대학교 알고리즘 소모임 AL林 **회장**
-      - 2019 UOSPC(서울시립대학교 알고리즘 경진대회) **출제 및 검수**
-      
-  - title: Language
-    layout: text
-    content: | 
-      ## Japanese
-      - JLPT N3 취득 (157/180점, 2017.01.22)
-      - JLPT N2 취득 (145/180점, 2018.08.19)
-      - JLPT N1 응시예정 (2021.12.05)
-      
+      - 2021
+        - **2021 SCPC(삼성 대학생 프로그래밍 경진대회) 본선 진출**
+        - 2021 UCPC(전국 대학생 프로그래밍 동아리 연합 대회) 본선 43등
+        - 삼성 SDS SW역량테스트 Professional 취득
+        - 2021 Google Codejam Round2 1659등
+        - 2021 Google Codejam Round1A 1430등
+        - 2021 Google Hashcode Qualification 275등(한국 14등)
+        - 2021 ICPC Sinchon Winter Algorithm Camp Contest 검수 [link](https://www.acmicpc.net/problemset?sort=no_asc&author=iknoom1107&author_type=19)
+      - 2020
+        - **2020 ACM-ICPC Asia Seoul Regional Contest 본선 28등 (ICPC rule 14등)**
+        - **2020 UOSPC(서울시립대학교 알고리즘 경진대회) 운영, 출제 및 검수 [link](https://github.com/all1m-algorithm-study/uospc2020)**
+        - 2020 UCPC(전국 대학생 프로그래밍 동아리 연합 대회) 본선 40등
+        - 2020 Google Codejam Round1A 2197등
+        - 2020 Google Hashcode Qualification 2200등(한국 32등)
+        - **2020 서울시립대학교 알고리즘 소모임 AL林 회장**
+      - 2019
+        - 2019 UOSPC(서울시립대학교 알고리즘 경진대회) 출제 및 검수 [link](https://github.com/all1m-algorithm-study/uospc/blob/master/2019/editorials/2019_UOSPC_%ED%92%80%EC%9D%B4.pdf)
+        - 2019 ACM-ICPC Asia Seoul Regional Contest 예선 215등
+        - Problem Solving 시작
+  
   - title: Memo
     layout: text
     content: | 
       ## TODO
       - KR font 수정
       - SlideShare 넣기
+      - LinkedIn 정리
+      - 프로젝트 수행 내용, 수강내역 다듬기
+      - 모든 프로젝트의 README 점검하기
 
 # Footer
 footer_show_references: false
