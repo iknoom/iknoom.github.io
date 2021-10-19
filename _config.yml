@@ -60,9 +60,9 @@ content:
 
           ## 수강내역
           - 운영체제: `process/thread`, `scheduling`, `paging`, `file system`
-          - 컴퓨터통신: `OSI 7 layer`, `tcp/udp`, `ip`, `http`
+          - 컴퓨터통신: `OSI 7 layer`, `TCP/UDP`, `IP`, `HTTP`
+          - 데이터베이스(수강중): `RDB`, `SQL`, `ER model`
           - 인공지능: `MLP`, `CNN`
-          - 소프트웨어 응용: `social network`, `game theory`
 
           ## 학점
           - 전체 `3.99/4.5`
@@ -78,22 +78,21 @@ content:
         title: ColorAid
         # sub_title: 
         caption: 2021.07 ~ 진행 중
-        link: https://www.coloraid.me
-        link_text: www.coloraid.me
+        link: https://github.com/swmaestro-null/Null-Backend
+        link_text: github.com/swmaestro-null/Null-Backend
         additional_links:
-          - title:  github.com/swmaestro-null/Null-AI
+          - title:  github.com/swmaestro-null/Null-Backend
             icon: fab fa-github
-            url: github.com/swmaestro-null/Null-AI
+            url: github.com/swmaestro-null/Null-Backend
           - title:  www.coloraid.me
             icon: fas fa-globe
             url: https://www.coloraid.me
         quote: >
           [팀 프로젝트] 소프트웨어 마에스트로 12기, 웹툰 밑색 자동 채색 어플리케이션
         description: |
-          - 자동 채색 AI를 수행하는 Flask API를 작성했습니다.
-          - 유저 인증 기능을 수행하는 Spring API를 작성했습니다.
-          - Docker와 Jenkins를 이용한 CI/CD pipeline을 작성했습니다.
-          - `Flask`, `Spring boot`, `Jenkins`, `Docker`, `AWS EC2`, `AWS S3`
+          - 유저 회원가입, 로그인을 수행하는 Spring API를 작성했습니다.
+          - 자동 채색 로직을 수행하는 Flask API를 작성했습니다.
+          - `Spring boot`, `JWT`, `Flask`, `AWS EC2`, `AWS S3`
       # Project #2
       - layout: left
         title: Project Wing
@@ -119,17 +118,20 @@ content:
         title: BOJ-BREAKER
         # sub_title: 
         caption: 2021.01 ~ 2021.03
-        link: https://github.com/ddbreaker/BOJ-BREAKER
-        link_text: github.com/ddbreaker/BOJ-BREAKER
+        link: https://github.com/all1m-algorithm-study/BOJ-BREAKER
+        link_text: github.com/all1m-algorithm-study/BOJ-BREAKER
         additional_links:
-          - title:  github.com/ddbreaker/BOJ-BREAKER
+          - title:  github.com/all1m-algorithm-study/BOJ-BREAKER
             icon: fab fa-github
-            url: github.com/ddbreaker/BOJ-BREAKER
+            url: github.com/all1m-algorithm-study/BOJ-BREAKER
+          - title: unsolved.allim.site/group/302/unsolved
+            icon: fas fa-globe
+            url: http://unsolved.allim.site/group/302/unsolved
         quote: >
           [팀 프로젝트] 우리 학교가 풀지 않은 Baekjoon 문제
         description: |
           - ERD 설계 및 아키텍쳐 설계를 했습니다.
-          - query string에 맞는 쿼리를 수행하는 API를 작성했습니다.
+          - 특정 그룹이 풀지 못한 문제의 리스트를 반환하는 API를 작성했습니다.
           - Baekjoon을 크롤링하는 크롤러를 구현했습니다.
           - `Spring boot`, `Spring Data JPA`, `MariaDB`, `Python`, `Beautifulsoup`, `AWS Lambda`
       # Project #4
@@ -224,15 +226,15 @@ content:
             url: github.com/kidult-1/Web_Study/tree/master/moonki
         description: |
           - Web에 대한 기본적인 내용을 처음으로 공부하며 정리했습니다.
-          - `html`, `css`, `js`
-          - `bootstrap`
+          - `HTML`, `CSS`, `JS`
+          - `Bootstrap`
 
   - title: Problem Solving
     layout: text
     content: | 
       ## Site
-      ![atcoder](https://cp-logo.vercel.app/atcoder/IKnoom)
       ![codeforces](https://cp-logo.vercel.app/codeforces/IKnoom)
+      ![atcoder](https://cp-logo.vercel.app/atcoder/IKnoom)
       <a href="https://solved.ac/iknoom1107" rel="nofollow"><img src="https://camo.githubusercontent.com/cb7fe4e5e5de508163166a936841d01a8c86d2413e8180ee2467b09c56b90d2b/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f6d696e692f67656e65726174655f62616467653f626f6a3d696b6e6f6f6d31313037" alt="solved.ac" data-canonical-src="http://mazassumnida.wtf/api/mini/generate_badge?boj=iknoom1107" style="max-width:100%;"></a>
       - [Atcoder](https://atcoder.jp/users/IKnoom)
       - [Codeforces](http://codeforces.com/profile/IKnoom)
@@ -240,6 +242,7 @@ content:
 
       ## History
       - 2021
+        - **2021 ACM-ICPC Asia Seoul Regional Contest 예선 28등**
         - **2021 SCPC(삼성 대학생 프로그래밍 경진대회) 본선 진출**
         - 2021 UCPC(전국 대학생 프로그래밍 동아리 연합 대회) 본선 43등
         - 삼성 SDS SW역량테스트 Professional 취득
@@ -262,12 +265,7 @@ content:
   - title: Memo
     layout: text
     content: | 
-      ## TODO
-      - KR font 수정
-      - SlideShare 넣기
-      - LinkedIn 정리
-      - 프로젝트 수행 내용, 수강내역 다듬기
-      - 모든 프로젝트의 README 점검하기
+
 
 # Footer
 footer_show_references: false
