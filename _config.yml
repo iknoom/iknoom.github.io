@@ -51,7 +51,7 @@ content:
     content:
       - layout: left
         title: 서울시립대학교
-        caption: 2016.3 - 2022.2(졸업 예정)
+        caption: 2016.3 - 2022.2
         sub_title: 컴퓨터과학부
         description: |
           _항상 기본기를 중요시하며, 지식의 내재화를 위해 기록을 남기려고 노력했습니다._
@@ -61,7 +61,7 @@ content:
           ## 수강내역
           - 운영체제: `process/thread`, `scheduling`, `paging`, `file system`
           - 컴퓨터통신: `OSI 7 layer`, `TCP/UDP`, `IP`, `HTTP`
-          - 데이터베이스(수강중): `RDB`, `SQL`, `ER model`
+          - 데이터베이스: `RDB`, `SQL`, `ER model`
           - 인공지능: `MLP`, `CNN`
 
           ## 학점
@@ -77,7 +77,7 @@ content:
       - layout: left
         title: ColorAid
         # sub_title: 
-        caption: 2021.07 ~ 진행 중
+        caption: 2021.07 ~ 2021.11
         link: https://github.com/swmaestro-null/Null-Backend
         link_text: github.com/swmaestro-null/Null-Backend
         additional_links:
